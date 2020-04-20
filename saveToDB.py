@@ -2,8 +2,7 @@ import pymongo
 
 
 def toDB(tweets, user):
-    print("HI")
-    print(tweets[0])
+
     # open a mongo connection
     client = pymongo.MongoClient("mongodb://localhost:27017/")
 
